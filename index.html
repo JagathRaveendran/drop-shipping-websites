@@ -33,8 +33,9 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" onclick="search()">Search</button>
+              <span id="search-status"></span>
             </form>
           </div>
         </div>
@@ -60,13 +61,13 @@
   <h1>product lis</h1>
 </head>
       <!-- CARDS  -->
-      <div class="row row-cols-2 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
         <div class="col">
           <div class="card h-100">
             <img src="product-img/pefume.jpg"class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This content is a little bit longer.</p>
+              <h5 class="card-title">perfumes</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -74,8 +75,8 @@
           <div class="card h-100">
             <img src="product-img/camara.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
+              <h5 class="card-title">camaras</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -83,8 +84,8 @@
           <div class="card h-100">
             <img src="product-img/headset.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">headsets</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -92,8 +93,8 @@
           <div class="card h-100">
             <img src="product-img/shoe.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">shoes</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -101,8 +102,8 @@
           <div class="card h-100">
             <img src="product-img/pefume.jpg"class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">perfumes</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -110,8 +111,8 @@
           <div class="card h-100">
             <img src="product-img/camara.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
+              <h5 class="card-title">camaras</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -119,8 +120,8 @@
           <div class="card h-100">
             <img src="product-img/headset.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">headsets</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -128,8 +129,8 @@
           <div class="card h-100">
             <img src="product-img/shoe.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">shoes</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -137,8 +138,8 @@
           <div class="card h-100">
             <img src="product-img/pefume.jpg"class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">perfumes</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -146,8 +147,8 @@
           <div class="card h-100">
             <img src="product-img/camara.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
+              <h5 class="card-title">camaras</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -155,8 +156,8 @@
           <div class="card h-100">
             <img src="product-img/headset.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">headsets</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -164,8 +165,8 @@
           <div class="card h-100">
             <img src="product-img/shoe.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">shoes</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -173,8 +174,8 @@
           <div class="card h-100">
             <img src="product-img/pefume.jpg"class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">perfumes</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -182,8 +183,8 @@
           <div class="card h-100">
             <img src="product-img/camara.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
+              <h5 class="card-title">camaras</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -191,8 +192,8 @@
           <div class="card h-100">
             <img src="product-img/headset.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">headsets</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -200,11 +201,12 @@
           <div class="card h-100">
             <img src="product-img/shoe.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">shoes</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
+        
       </div>
 
       <!-- CARDS-END  -->
